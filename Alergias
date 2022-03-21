@@ -1,0 +1,14 @@
+Algoritmo ALERGIASSHER
+	Escribir "Alergias"
+	
+	Escribir "Hola, ¿Eres alergico a la penicilina?"
+	leer respuesta
+	segun respuesta hacer
+		"si": escribir "En ese caso, puedes optar por tomar Eritromicina."
+		"Si": escribir "En ese caso, puedes optar por tomar Eritromicina."
+			
+			de otro modo 
+			escribir "Que curioso, yo si lo soy."
+			
+	FinSegun
+FinAlgoritmo
