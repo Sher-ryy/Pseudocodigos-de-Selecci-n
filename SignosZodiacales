@@ -1,0 +1,22 @@
+Algoritmo SignoZodiacalSher
+	Escribir "Escribe el numero de tu mes de nacimiento para saber tu signo zodiacal (1 al 12):"
+	leer num 
+	segun num Hacer
+		1: Escribir "Si naciste antes del 20 eres Capricornio, Si naciste después eres Acuario"
+		2: Escribir "Si naciste antes del 20 eres Acuario, Si naciste después eres Piscis"
+		3: Escribir "Si naciste antes del 20 eres Piscis, Si naciste después eres Aries"
+		4: Escribir "Si naciste antes del 20 eres Aries, Si naciste después eres Tauro"
+		5: Escribir "Si naciste antes del 20 eres Tauro, Si naciste después eres Geminis"
+		6: Escribir "Si naciste antes del 20 eres Geminis, Si naciste después eres Cancer"
+		7: Escribir "Si naciste antes del 20 eres Cancer, Si naciste después eres Leo"
+		8: Escribir "Si naciste antes del 20 eres Leo, Si naciste después eres Virgo"
+		9: Escribir "Si naciste antes del 20 eres Virgo, Si naciste después eres Libra"
+		10: Escribir "Si naciste antes del 20 eres Libra, Si naciste después eres Escorpio"
+		11: Escribir "Si naciste antes del 20 eres Escorpio, Si naciste después eres Sagitario"
+		12: Escribir "Si naciste antes del 20 eres Sagitario, Si naciste después eres Capricornio"
+		de otro modo:
+			escribir "Numero del mes incorrecto, prueba otra vez"
+			
+	FinSegun
+	
+FinAlgoritmo
