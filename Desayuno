@@ -1,0 +1,16 @@
+Algoritmo DesayunoSher
+	Escribir "Elección de Desayuno"
+	
+	Escribir "Hola, ¿Prefieres desayunar Pan Francés o Huevos con Jamón?"
+	leer respuesta
+	segun respuesta hacer
+		"Pan Francés": escribir "Perfecto, le agregaré Nutella para que puedas probarlo."
+		"pan francés": escribir "Perfecto, le agregaré Nutella para que puedas probarlo."
+		"Huevos con Jamón": escribir "Claro, te pondré la Catsup aparte por si prefieres no ponerle"
+		"huevos con jamón": escribir "Claro, te pondré la Catsup aparte por si prefieres no ponerle"
+			
+			de otro modo 
+			escribir "Trata de escribirlo correctamente :D."
+			
+	FinSegun
+FinAlgoritmo
