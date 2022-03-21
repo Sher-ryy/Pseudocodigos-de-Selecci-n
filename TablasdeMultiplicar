@@ -1,0 +1,10 @@
+Algoritmo MultiplicacionSher
+	Escribir "Tablas de Multiplicar"
+	i = 0
+	Escribir "Cual tabla de multiplicación te gustaría aprender?"
+	leer num
+	Mientras i < 11 Hacer
+		Escribir num, " x ", i , " = ", num * i
+		i = i + 1
+	FinMientras
+FinAlgoritmo
